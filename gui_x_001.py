@@ -46,5 +46,6 @@ def calling_Gui():
     ttk.Button(frm, text="window4", command=new_window04).grid(column=1, row=3)
     ttk.Label(frm, text="text!").grid(column=0, row=4)
     ttk.Button(frm, text="window5", command=new_window05).grid(column=1, row=4)
-
+    #ttk.Label(frm, text="text!").grid(column=0, row=4)
+    #ttk.Button(frm, text="window5", command=new_window05).grid(column=1, row=4)
     root.mainloop()
