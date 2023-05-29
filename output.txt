@@ -1,0 +1,10 @@
+analog_clock: 19.29%
+hook: 10.59%
+parallel_bars: 5.98%
+guillotine: 5.68%
+tripod: 4.59%
+crane: 3.63%
+scale: 3.34%
+puck: 2.16%
+bannister: 2.12%
+bell_cote: 1.53%
