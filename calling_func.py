@@ -5,5 +5,6 @@ from py001 import *
 
 def calling_func():
 # calling functions
-    displayText();
-    printingText();
+    displayText()
+    printingText()
+

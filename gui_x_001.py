@@ -3,13 +3,13 @@
 from calling_func import *
 from tkinter import *
 from tkinter import ttk
-from gui_x_002 import *
-from gui_x_003 import *
-from gui_x_004 import *
-from gui_x_005 import *
 #from tag_Photo_001 import *
-from MDL_001 import *
-from date_file_name import *
+from delete_file_2 import *
+from greetings import *
+from dairy import *
+
+from gui_x_002 import *
+from backend_x_001 import *
 
 def donothing():
    x = 0
@@ -40,18 +40,15 @@ def calling_Gui():
    frm.grid()
    ttk.Label(frm, text="label2!").grid(column=0, row=0)
    ttk.Button(frm, text="Quit", command=root.destroy).grid(column=1, row=0)
-   ttk.Label(frm, text="Hello World!").grid(column=0, row=1)
-   ttk.Button(frm, text="window1", command=new_window02).grid(column=1, row=1)
-   ttk.Label(frm, text="graphics!").grid(column=0, row=2)
-   ttk.Button(frm, text="window3", command=new_window03).grid(column=1, row=2)
-   ttk.Label(frm, text="vertical!").grid(column=0, row=3)
-   ttk.Button(frm, text="window4", command=new_window04).grid(column=1, row=3)
-   ttk.Label(frm, text="text!").grid(column=0, row=4)
-   ttk.Button(frm, text="window5", command=new_window05).grid(column=1, row=4)
-   #ttk.Label(frm, text="text!").grid(column=0, row=5)
-   #ttk.Button(frm, text="window6", command=tag_image(image_path, output_path)).grid(column=1, row=5)
-   ttk.Label(frm, text="MDL!").grid(column=0, row=6)
-   ttk.Button(frm, text="MDL!", command=MDL_01).grid(column=1, row=6)
    ttk.Label(frm, text="dairy!").grid(column=0, row=7)
    ttk.Button(frm, text="dairy!", command=dfn).grid(column=1, row=7)
+   ttk.Label(frm, text="delete!").grid(column=0, row=8)
+   ttk.Button(frm, text="delete!", command=delete_2).grid(column=1, row=8)
+   ttk.Label(frm, text="greetings!").grid(column=2, row=0)
+   ttk.Button(frm, text="greetings!", command=greetings).grid(column=3, row=0)
+   ttk.Label(frm, text="chatbot!").grid(column=2, row=1)
+   ttk.Button(frm, text="chatbot!!!", command=main).grid(column=3, row=1)
+   ttk.Label(frm, text="sayhello!").grid(column=2, row=2)
+   ttk.Button(frm, text="sayhello!!!", command=say_hello).grid(column=3, row=3)
+
    root.mainloop()

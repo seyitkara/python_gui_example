@@ -32,12 +32,12 @@ def dfn():
     # Create a file and write the date inside it
     file_path = search_for_output_path()+"/"+tarih+".txt"
     with open(file_path, 'a') as file:
-        file.write(str("\n"))
         file.write(str(current_date))
         file.write(str("\n"))
     dairy = input("Please add write dairy: ")
     with open(file_path, 'a') as file:
-            file.write(f"Sevgili Günlük,\n{dairy}\n\n")
+        file.write(f"Sevgili Günlük,\n{dairy}\n\n")
+        file.write(str(current_date))
     print(f"File '{file_path}' created with the current date.")
     #quit()
     exit()
